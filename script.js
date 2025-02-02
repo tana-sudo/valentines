@@ -17,7 +17,7 @@ document.getElementById('yesButton').addEventListener('click', function() {
 document.getElementById('noButton').addEventListener('click', function() {
     fadeOutExistingText();
     setTimeout(() => {
-        document.getElementById('responseMessage').textContent = "Aww, that's okay. I hope you have a great Valentine's Day anyway!";
+        document.getElementById('responseMessage').textContent = "Zidzoro!";
         document.getElementById('responseMessage').classList.remove('hidden');
     }, 500); // Delay to match the fade-out animation
 });
